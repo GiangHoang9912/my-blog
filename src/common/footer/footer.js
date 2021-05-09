@@ -4,7 +4,7 @@ import { NavLink } from "reactstrap";
 function Footer(props) {
   if (props.page === "contact") {
     return (
-      <div className="footer">
+      <div className="footer footer-item">
         <div className="footer-contact">
           <div className="footer-content-contact">
             {/* facebook */}
