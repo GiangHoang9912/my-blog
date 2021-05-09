@@ -1,13 +1,41 @@
-.footer{
-    width: 100%;
-    height: 100px;
-    background-color: rgb(53, 58, 63);
-    bottom: 0; 
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(53, 58, 63);
+  bottom: 0;
 }
 
-.footer-contact{
-    width: 100%;
-    height: 300px;
-    background-color: rgb(53, 58, 63);
-    bottom: 0; 
+.footer-contact {
+  width: 100%;
+  height: 300px;
+  background-color: rgb(53, 58, 63);
+  bottom: 0;
+  display: flex;
+  color: bisque;
+  justify-content: space-around;
 }
+
+.footer{
+    width: 100%;
+    background-color: rgb(53, 58, 63);
+    bottom: 0;
+    display: flex;
+    color: bisque;
+    justify-content: space-around;
+}
+
+.footer-content-contact {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10%;
+}
+
+.footer a {
+  color: darkgray !important;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+  }
