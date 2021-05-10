@@ -5,6 +5,10 @@ import Footer from "../common/footer/footer";
 function HomePage() {
   return (
     <div className="page-home">
+      <Helmet>
+        <title>Giang Hoàng - Home</title>
+      </Helmet>
+
       <Header />
       <div className="home">
         {/* 
