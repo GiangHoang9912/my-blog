@@ -1,6 +1,7 @@
 import "./home.css";
 import Header from "../common/header/header";
 import Footer from "../common/footer/footer";
+import { Helmet } from "react-helmet";
 
 function HomePage() {
   return (
